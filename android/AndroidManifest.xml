@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/GdxTheme" >
+
+        <!-- Google Play Games -->
+        <meta-data
+            android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/app_id" />
+
+        <!-- AdMob -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/adMob_app_id"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!-- Launcher -->
+        <activity
+            android:exported="true"
+            android:name=".AndroidLauncher"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+
+        </activity>
+        <activity
+            android:theme="@style/Theme.DemoApp"
+            android:exported="true"
+            android:name=".MainAct"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.DemoApp"
+            android:exported="true"
+            android:name=".OtpSendActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+
+            tools:ignore="Instantiatable">
+
+        </activity>
+        <activity
+            android:theme="@style/Theme.DemoApp"
+            android:exported="true"
+            android:name=".OtpVerifyActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+
+            tools:ignore="Instantiatable">
+
+        </activity>
+        <activity
+            android:theme="@style/Theme.DemoApp"
+            android:exported="true"
+            android:name=".Mainss"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+
+            tools:ignore="Instantiatable">
+
+
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:exported="true"
+            android:name=".Mainsec"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            tools:ignore="Instantiatable">
+
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:exported="true"
+            android:name=".Mainthird"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable">
+
+        </activity>
+        <activity
+            android:theme="@style/Theme.DemoApp"
+            android:exported="true"
+            android:name=".Firstscreen"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable">
+
+        </activity>
+        <activity
+            android:theme="@style/Theme.DemoApp"
+            android:exported="true"
+            android:name=".Videovw"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            tools:ignore="Instantiatable">
+
+        </activity>
+    </application>
+</manifest>

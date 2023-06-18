@@ -1,0 +1,132 @@
+{
+   "map_width": 1920,
+   "map_height": 1440,
+   "map_color": "000000",
+   "grid_color": "FFFFFF",
+   "shape_color": "FA7C07",
+   "selection_color": "3399FF",
+   "grid_size": 32,
+   "snap_grid_size": 10,
+   "snap_grid": true,
+   "show_grid": false,
+   "images": [
+      "bg.jpg",
+      "line.png",
+      "brain.png",
+      "btnQuit.png",
+      "btnSound.png",
+      "btnLeaders.png",
+      "btnSignIn.png",
+      "btnStart.png"
+   ],
+   "layers": [
+      {
+         "name": "bg",
+         "visible": true,
+         "locked": false,
+         "objects": [
+            {
+               "image": 0,
+               "x": 960,
+               "y": 720
+            },
+            {
+               "angle": -5,
+               "image": 1,
+               "x": 1365,
+               "y": 505
+            },
+            {
+               "angle": 35,
+               "image": 1,
+               "x": 1300,
+               "y": 770
+            },
+            {
+               "angle": -35,
+               "flip_x": true,
+               "image": 1,
+               "x": 620,
+               "y": 770
+            },
+            {
+               "angle": 5,
+               "flip_x": true,
+               "image": 1,
+               "x": 555,
+               "y": 505
+            },
+            {
+               "image": 2,
+               "x": 960,
+               "y": 560
+            }
+         ]
+      },
+      {
+         "name": "btnQuit",
+         "visible": true,
+         "locked": false,
+         "objects": [
+            {
+               "touchable": true,
+               "image": 3,
+               "x": 1555,
+               "y": 950
+            }
+         ]
+      },
+      {
+         "name": "btnSound",
+         "visible": true,
+         "locked": false,
+         "objects": [
+            {
+               "touchable": true,
+               "image": 4,
+               "x": 1695,
+               "y": 480
+            }
+         ]
+      },
+      {
+         "name": "btnLeaders",
+         "visible": true,
+         "locked": false,
+         "objects": [
+            {
+               "touchable": true,
+               "image": 5,
+               "x": 365,
+               "y": 950
+            }
+         ]
+      },
+      {
+         "name": "btnSign",
+         "visible": true,
+         "locked": false,
+         "objects": [
+            {
+               "touchable": true,
+               "image": 6,
+               "x": 225,
+               "y": 480
+            }
+         ]
+      },
+      {
+         "name": "btnStart",
+         "visible": true,
+         "locked": false,
+         "objects": [
+            {
+               "touchable": true,
+               "image": 7,
+               "x": 960,
+               "y": 950
+            }
+         ]
+      }
+   ]
+}

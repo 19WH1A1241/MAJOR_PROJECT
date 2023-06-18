@@ -1,0 +1,328 @@
+{
+   "map_width": 1920,
+   "map_height": 1440,
+   "map_color": "000000",
+   "grid_color": "FFFFFF",
+   "shape_color": "F44013",
+   "selection_color": "110D26",
+   "grid_size": 32,
+   "snap_grid_size": 10,
+   "snap_grid": false,
+   "show_grid": false,
+   "images": [
+      "bg.jpg",
+      "effect.png",
+      "itemEmpty.png",
+      "txtReady.png",
+      "progressBg.png",
+      "progressLine.png",
+      "progressOver.png",
+      "btnPause.png",
+      "btnSound.png",
+      "btnStart.png",
+      "btnRestart.png",
+      "btnQuit.png",
+      "txtPaused.png",
+      "txtGameOver.png",
+      "txtScore.png"
+   ],
+   "layers": [
+      {
+         "name": "bg",
+         "visible": true,
+         "locked": true,
+         "objects": [
+            {
+               "image": 0,
+               "x": 960,
+               "y": 720
+            }
+         ]
+      },
+      {
+         "name": "effect",
+         "visible": true,
+         "locked": true,
+         "objects": [
+            {
+               "alpha": 0.4,
+               "physics": true,
+               "body_type": "dynamic",
+               "sensor": true,
+               "mask_bits": [16],
+               "image": 1,
+               "shape_type": "rectangle",
+               "shape_values": [0,0,100,100],
+               "x": 960,
+               "y": 720
+            }
+         ]
+      },
+      {
+         "name": "item",
+         "visible": true,
+         "locked": true,
+         "objects": [
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 210,
+               "y": 470
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 460,
+               "y": 470
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 710,
+               "y": 470
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 960,
+               "y": 470
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 1210,
+               "y": 470
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 1460,
+               "y": 470
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 210,
+               "y": 720
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 460,
+               "y": 720
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 710,
+               "y": 720
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 960,
+               "y": 720
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 1210,
+               "y": 720
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 1460,
+               "y": 720
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 1710,
+               "y": 720
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 210,
+               "y": 970
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 460,
+               "y": 970
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 710,
+               "y": 970
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 960,
+               "y": 970
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 1210,
+               "y": 970
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 1460,
+               "y": 970
+            },
+            {
+               "touchable": true,
+               "image": 2,
+               "x": 1710,
+               "y": 970
+            }
+         ]
+      },
+      {
+         "name": "txtReady",
+         "visible": true,
+         "locked": true,
+         "objects": [
+            {
+               "image": 3,
+               "x": 960,
+               "y": 720
+            }
+         ]
+      },
+      {
+         "name": "progressBg",
+         "visible": true,
+         "locked": true,
+         "objects": [
+            {
+               "image": 4,
+               "x": 217,
+               "y": 35
+            }
+         ]
+      },
+      {
+         "name": "progressLine",
+         "visible": true,
+         "locked": true,
+         "objects": [
+            {
+               "image": 5,
+               "x": 217,
+               "y": 35
+            }
+         ]
+      },
+      {
+         "name": "progressOver",
+         "visible": true,
+         "locked": true,
+         "objects": [
+            {
+               "image": 6,
+               "x": 217,
+               "y": 35
+            }
+         ]
+      },
+      {
+         "name": "btnPause",
+         "visible": true,
+         "locked": true,
+         "objects": [
+            {
+               "alpha": 0.3,
+               "touchable": true,
+               "image": 7,
+               "x": 1800,
+               "y": 120
+            }
+         ]
+      },
+      {
+         "name": "groupPause",
+         "visible": false,
+         "locked": true,
+         "objects": [
+            {
+               "image": 0,
+               "x": 960,
+               "y": 720
+            },
+            {
+               "name": "btnSound",
+               "touchable": true,
+               "image": 8,
+               "x": 1165,
+               "y": 840
+            },
+            {
+               "name": "btnResume",
+               "touchable": true,
+               "image": 9,
+               "x": 345,
+               "y": 840
+            },
+            {
+               "name": "btnRestart",
+               "touchable": true,
+               "image": 10,
+               "x": 755,
+               "y": 840
+            },
+            {
+               "name": "btnQuit",
+               "touchable": true,
+               "image": 11,
+               "x": 1575,
+               "y": 840
+            },
+            {
+               "image": 12,
+               "x": 960,
+               "y": 480
+            }
+         ]
+      },
+      {
+         "name": "groupGameOver",
+         "visible": false,
+         "locked": true,
+         "objects": [
+            {
+               "name": "txtGameOver",
+               "image": 13,
+               "x": 960,
+               "y": 470
+            },
+            {
+               "image": 14,
+               "x": 960,
+               "y": 720
+            },
+            {
+               "name": "btnRestart",
+               "touchable": true,
+               "image": 10,
+               "x": 250,
+               "y": 720
+            },
+            {
+               "name": "btnBack",
+               "touchable": true,
+               "image": 11,
+               "x": 1670,
+               "y": 720
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/prevdata"
+        style="@style/Button"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_start"
+
+
+        android:text="Start Analysis"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/demo"
+        style="@style/Button"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+     android:layout_centerHorizontal="true"
+        android:background="@drawable/button_start"
+      android:layout_below="@+id/prevdata"
+
+        android:text="How to Play"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/startanaly"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/demo"
+
+
+       android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Current stage of alzheimer’s:"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/textstages"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startanaly"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text="Not Tested"
+
+        android:textColor="@color/teal_200" />
+
+</RelativeLayout>

@@ -1,0 +1,418 @@
+[
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_card3.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-hdpi\\card3.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-xhdpi_logo.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-xhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-mdpi_card5.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-mdpi\\card5.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-tvdpi_ic_launcher.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-tvdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_card0.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xhdpi\\card0.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\layout_firstscreen.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\layout\\firstscreen.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-xhdpi_card3.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-xhdpi\\card3.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\layout_mainact.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\layout\\mainact.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-tvdpi_card2.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-tvdpi\\card2.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\raw_video.mp4.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\raw\\video.mp4"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_border_right.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-mdpi\\border_right.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-mdpi_card2.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-mdpi\\card2.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\layout_finalscreen.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\layout\\finalscreen.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_card2.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xxhdpi\\card2.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-mdpi_card1.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-mdpi\\card1.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_card4.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-hdpi\\card4.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-xhdpi_card4.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-xhdpi\\card4.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-tvdpi_card1.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-tvdpi\\card1.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-mdpi_card4.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-mdpi\\card4.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-xhdpi_card5.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-xhdpi\\card5.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-tvdpi_logo.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-tvdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_card1.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-mdpi\\card1.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-xhdpi_card2.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-xhdpi\\card2.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-mdpi_card4.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-mdpi\\card4.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-tvdpi_bg.jpg.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-tvdpi\\bg.jpg"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-tvdpi_card3.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-tvdpi\\card3.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_card1.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xhdpi\\card1.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-xhdpi_bg.jpg.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-xhdpi\\bg.jpg"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\layout_mainthird.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\layout\\mainthird.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_logo.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-mdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_border_left.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-mdpi\\border_left.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-tvdpi_card0.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-tvdpi\\card0.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-xhdpi_card1.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-xhdpi\\card1.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_logoback.jpg.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-mdpi\\logoback.jpg"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_card0.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-mdpi\\card0.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\layout_main.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-xhdpi_card2.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-xhdpi\\card2.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_card4.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xxhdpi\\card4.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-xhdpi_card4.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-xhdpi\\card4.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_card3.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-mdpi\\card3.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-xhdpi_card5.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-xhdpi\\card5.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_logo.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-mdpi_card2.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-mdpi\\card2.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_card1.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xxhdpi\\card1.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable_btn_start.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable\\btn_start.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\layout_activity_otp_verify.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\layout\\activity_otp_verify.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_bg.jpg.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xxhdpi\\bg.jpg"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-tvdpi_card5.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-tvdpi\\card5.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-xhdpi_card0.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-xhdpi\\card0.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-xhdpi_logo.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-xhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_card5.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xxhdpi\\card5.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_card5.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-mdpi\\card5.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_card0.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-hdpi\\card0.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_bg.jpg.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xhdpi\\bg.jpg"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\layout_gamesecond.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\layout\\gamesecond.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_card3.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xhdpi\\card3.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable_progressbar.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable\\progressbar.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable_btn.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable\\btn.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-xhdpi_card1.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-xhdpi\\card1.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_bg.jpg.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-mdpi\\bg.jpg"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-mdpi_card1.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-mdpi\\card1.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-xhdpi_card0.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-xhdpi\\card0.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-mdpi_card5.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-mdpi\\card5.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-tvdpi_card4.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-tvdpi\\card4.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable_background.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable\\background.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\layout_activity_otp_send.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\layout\\activity_otp_send.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_card4.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-mdpi\\card4.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-mdpi_ic_launcher.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_card1.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-hdpi\\card1.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_card4.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xhdpi\\card4.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_border.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-mdpi\\border.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_otp.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-mdpi\\ic_otp.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-mdpi_card0.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-mdpi\\card0.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_card5.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xhdpi\\card5.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_card5.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-hdpi\\card5.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-xhdpi_card3.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-xhdpi\\card3.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-mdpi_card0.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-mdpi\\card0.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\layout_videoview.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\layout\\videoview.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_card3.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xxhdpi\\card3.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable_button_start.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable\\button_start.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-mdpi_card3.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-mdpi\\card3.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-mdpi_logo.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-mdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_card2.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-mdpi\\card2.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_card0.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xxhdpi\\card0.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_bg.jpg.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-hdpi\\bg.jpg"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-xhdpi_bg.jpg.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-xhdpi\\bg.jpg"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-mdpi_ic_launcher.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_card2.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-hdpi\\card2.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-mdpi_card3.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-mdpi\\card3.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_plane.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-mdpi\\ic_plane.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_logo.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_card2.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xhdpi\\card2.png"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-large-mdpi_bg.jpg.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-large-mdpi\\bg.jpg"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable_button.xml.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-mdpi_bg.jpg.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-mdpi\\bg.jpg"
+    },
+    {
+        "merged": "D:\\MemoryGame\\RememberNumbers\\android\\build\\intermediates\\merged_res\\debug\\drawable-xlarge-mdpi_logo.png.flat",
+        "source": "D:\\MemoryGame\\RememberNumbers\\android\\res\\drawable-xlarge-mdpi\\logo.png"
+    }
+]

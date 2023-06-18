@@ -1,0 +1,632 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.app.android"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:5:5-67
+11-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:6:5-76
+12-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:7:5-79
+13-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Android package visibility setting -->
+14-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:25:22-76
+15    <queries>
+15-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:28:5-44:15
+16
+17        <!-- For browser content -->
+18        <intent>
+18-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:31:9-37:18
+19            <action android:name="android.intent.action.VIEW" />
+19-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:34:17-69
+19-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:34:25-66
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:37:17-78
+21-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:37:27-75
+22
+23            <data android:scheme="https" />
+23-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:39:17-42:51
+23-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:42:21-48
+24        </intent>
+25        <!-- End of browser content -->
+26        <!-- For CustomTabsService -->
+27        <intent>
+27-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:40:9-42:18
+28            <action android:name="android.support.customtabs.action.CustomTabsService" />
+28-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:41:13-90
+28-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:41:21-87
+29        </intent>
+30        <!-- End of CustomTabsService -->
+31    </queries>
+32
+33    <uses-permission android:name="android.permission.WAKE_LOCK" />
+33-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.3] C:\Users\vivek\.gradle\caches\transforms-3\9ad30f1f928d00737d2b25f5df32a9ea\transformed\jetified-play-services-measurement-sdk-api-18.0.3\AndroidManifest.xml:25:5-68
+33-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.3] C:\Users\vivek\.gradle\caches\transforms-3\9ad30f1f928d00737d2b25f5df32a9ea\transformed\jetified-play-services-measurement-sdk-api-18.0.3\AndroidManifest.xml:25:22-65
+34    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+34-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+34-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+35    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+35-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+35-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+36
+37    <permission
+37-->[androidx.core:core:1.9.0] C:\Users\vivek\.gradle\caches\transforms-3\68c0236dd34ebfe4fd27d3326fcc2e92\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+38        android:name="com.app.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.9.0] C:\Users\vivek\.gradle\caches\transforms-3\68c0236dd34ebfe4fd27d3326fcc2e92\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.9.0] C:\Users\vivek\.gradle\caches\transforms-3\68c0236dd34ebfe4fd27d3326fcc2e92\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.app.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.9.0] C:\Users\vivek\.gradle\caches\transforms-3\68c0236dd34ebfe4fd27d3326fcc2e92\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.9.0] C:\Users\vivek\.gradle\caches\transforms-3\68c0236dd34ebfe4fd27d3326fcc2e92\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+42
+43    <application
+43-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:8:5-126:19
+44        android:name="androidx.multidex.MultiDexApplication"
+45        android:allowBackup="true"
+45-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:9:9-35
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.9.0] C:\Users\vivek\.gradle\caches\transforms-3\68c0236dd34ebfe4fd27d3326fcc2e92\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+47        android:debuggable="true"
+48        android:fullBackupContent="true"
+48-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:10:9-41
+49        android:icon="@drawable/ic_launcher"
+49-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:11:9-45
+50        android:label="@string/app_name"
+50-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:12:9-41
+51        android:theme="@style/GdxTheme" >
+51-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:13:9-40
+52
+53        <!-- Google Play Games -->
+54        <meta-data
+54-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:16:9-18:46
+55            android:name="com.google.android.gms.games.APP_ID"
+55-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:17:13-63
+56            android:value="@string/app_id" />
+56-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:18:13-43
+57
+58        <!-- AdMob -->
+59        <meta-data
+59-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:21:9-23:51
+60            android:name="com.google.android.gms.ads.APPLICATION_ID"
+60-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:22:13-69
+61            android:value="@string/adMob_app_id" />
+61-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:23:13-49
+62        <meta-data
+62-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:24:9-26:69
+63            android:name="com.google.android.gms.version"
+63-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:25:13-58
+64            android:value="@integer/google_play_services_version" />
+64-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:26:13-66
+65
+66        <activity
+66-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:27:9-30:64
+67            android:name="com.google.android.gms.ads.AdActivity"
+67-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:28:13-65
+68            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+68-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:29:13-122
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:52:13-37
+70            android:theme="@android:style/Theme.Translucent" />
+70-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:30:13-61
+71
+72        <!-- Launcher -->
+73        <activity
+73-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:33:9-40:20
+74            android:name="com.app.android.AndroidLauncher"
+74-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:35:13-44
+75            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+75-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:36:13-83
+76            android:exported="true"
+76-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:34:13-36
+77            android:label="@string/app_name"
+77-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:37:13-45
+78            android:screenOrientation="sensorLandscape" >
+78-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:38:13-56
+79        </activity>
+80        <activity
+80-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:41:9-54:20
+81            android:name="com.app.android.MainAct"
+81-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:44:13-36
+82            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+82-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:45:13-83
+83            android:exported="true"
+83-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:43:13-36
+84            android:label="@string/app_name"
+84-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:46:13-45
+85            android:theme="@style/Theme.DemoApp" >
+85-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:42:13-49
+86            <intent-filter>
+86-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:49:13-53:29
+87                <action android:name="android.intent.action.MAIN" />
+87-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:50:17-69
+87-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:50:25-66
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+89-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:52:17-77
+89-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:52:27-74
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:55:9-64:20
+93            android:name="com.app.android.OtpSendActivity"
+93-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:58:13-44
+94            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+94-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:59:13-83
+95            android:exported="true"
+95-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:57:13-36
+96            android:label="@string/app_name"
+96-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:60:13-45
+97            android:theme="@style/Theme.DemoApp" >
+97-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:56:13-49
+98        </activity>
+99        <activity
+99-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:65:9-74:20
+100            android:name="com.app.android.OtpVerifyActivity"
+100-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:68:13-46
+101            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+101-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:69:13-83
+102            android:exported="true"
+102-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:67:13-36
+103            android:label="@string/app_name"
+103-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:70:13-45
+104            android:theme="@style/Theme.DemoApp" >
+104-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:66:13-49
+105        </activity>
+106        <activity
+106-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:75:9-85:20
+107            android:name="com.app.android.Mainss"
+107-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:78:13-35
+108            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+108-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:79:13-83
+109            android:exported="true"
+109-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:77:13-36
+110            android:label="@string/app_name"
+110-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:80:13-45
+111            android:theme="@style/Theme.DemoApp" >
+111-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:76:13-49
+112        </activity>
+113        <activity
+113-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:86:9-95:20
+114            android:name="com.app.android.Mainsec"
+114-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:89:13-36
+115            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+115-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:90:13-83
+116            android:exported="true"
+116-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:88:13-36
+117            android:label="@string/app_name"
+117-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:91:13-45
+118            android:screenOrientation="landscape"
+118-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:92:13-50
+119            android:theme="@style/AppTheme" >
+119-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:87:13-44
+120        </activity>
+121        <activity
+121-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:96:9-105:20
+122            android:name="com.app.android.Mainthird"
+122-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:99:13-38
+123            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+123-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:100:13-83
+124            android:exported="true"
+124-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:98:13-36
+125            android:label="@string/app_name"
+125-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:101:13-45
+126            android:screenOrientation="portrait"
+126-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:102:13-49
+127            android:theme="@style/AppTheme" >
+127-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:97:13-44
+128        </activity>
+129        <activity
+129-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:106:9-115:20
+130            android:name="com.app.android.Firstscreen"
+130-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:109:13-40
+131            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+131-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:110:13-83
+132            android:exported="true"
+132-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:108:13-36
+133            android:label="@string/app_name"
+133-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:111:13-45
+134            android:screenOrientation="portrait"
+134-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:112:13-49
+135            android:theme="@style/Theme.DemoApp" >
+135-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:107:13-49
+136        </activity>
+137        <activity
+137-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:116:9-125:20
+138            android:name="com.app.android.Videovw"
+138-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:119:13-36
+139            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+139-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:120:13-83
+140            android:exported="true"
+140-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:118:13-36
+141            android:label="@string/app_name"
+141-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:121:13-45
+142            android:screenOrientation="landscape"
+142-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:122:13-50
+143            android:theme="@style/Theme.DemoApp" >
+143-->D:\MemoryGame\RememberNumbers\android\AndroidManifest.xml:117:13-49
+144        </activity>
+145        <activity
+145-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\vivek\.gradle\caches\transforms-3\8a77ab43f6659e8000bece68b4569cbf\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:23:9-27:75
+146            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+146-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\vivek\.gradle\caches\transforms-3\8a77ab43f6659e8000bece68b4569cbf\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:24:13-93
+147            android:excludeFromRecents="true"
+147-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\vivek\.gradle\caches\transforms-3\8a77ab43f6659e8000bece68b4569cbf\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:25:13-46
+148            android:exported="false"
+148-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\vivek\.gradle\caches\transforms-3\8a77ab43f6659e8000bece68b4569cbf\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:26:13-37
+149            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+149-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\vivek\.gradle\caches\transforms-3\8a77ab43f6659e8000bece68b4569cbf\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:27:13-72
+150        <!--
+151            Service handling Google Sign-In user revocation. For apps that do not integrate with
+152            Google Sign-In, this service will never be started.
+153        -->
+154        <service
+154-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\vivek\.gradle\caches\transforms-3\8a77ab43f6659e8000bece68b4569cbf\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:33:9-37:51
+155            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+155-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\vivek\.gradle\caches\transforms-3\8a77ab43f6659e8000bece68b4569cbf\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:34:13-89
+156            android:exported="true"
+156-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\vivek\.gradle\caches\transforms-3\8a77ab43f6659e8000bece68b4569cbf\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:35:13-36
+157            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+157-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\vivek\.gradle\caches\transforms-3\8a77ab43f6659e8000bece68b4569cbf\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:36:13-107
+158            android:visibleToInstantApps="true" />
+158-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\vivek\.gradle\caches\transforms-3\8a77ab43f6659e8000bece68b4569cbf\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:37:13-48
+159
+160        <activity
+160-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:27:9-44:20
+161            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+161-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:28:13-80
+162            android:excludeFromRecents="true"
+162-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:29:13-46
+163            android:exported="true"
+163-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:30:13-36
+164            android:launchMode="singleTask"
+164-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:31:13-44
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+165-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:32:13-72
+166            <intent-filter>
+166-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:33:13-43:29
+167                <action android:name="android.intent.action.VIEW" />
+167-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:34:17-69
+167-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:34:25-66
+168
+169                <category android:name="android.intent.category.DEFAULT" />
+169-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:36:17-76
+169-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:36:27-73
+170                <category android:name="android.intent.category.BROWSABLE" />
+170-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:37:17-78
+170-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:37:27-75
+171
+172                <data
+172-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:39:17-42:51
+173                    android:host="firebase.auth"
+173-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:40:21-49
+174                    android:path="/"
+174-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:41:21-37
+175                    android:scheme="genericidp" />
+175-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:42:21-48
+176            </intent-filter>
+177        </activity>
+178        <activity
+178-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:45:9-62:20
+179            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+179-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:46:13-79
+180            android:excludeFromRecents="true"
+180-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:47:13-46
+181            android:exported="true"
+181-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:48:13-36
+182            android:launchMode="singleTask"
+182-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:49:13-44
+183            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+183-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:50:13-72
+184            <intent-filter>
+184-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:51:13-61:29
+185                <action android:name="android.intent.action.VIEW" />
+185-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:34:17-69
+185-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:34:25-66
+186
+187                <category android:name="android.intent.category.DEFAULT" />
+187-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:36:17-76
+187-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:36:27-73
+188                <category android:name="android.intent.category.BROWSABLE" />
+188-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:37:17-78
+188-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:37:27-75
+189
+190                <data
+190-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:39:17-42:51
+191                    android:host="firebase.auth"
+191-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:40:21-49
+192                    android:path="/"
+192-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:41:21-37
+193                    android:scheme="recaptcha" />
+193-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:42:21-48
+194            </intent-filter>
+195        </activity>
+196
+197        <service
+197-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:64:9-70:19
+198            android:name="com.google.firebase.components.ComponentDiscoveryService"
+198-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:65:13-84
+199            android:directBootAware="true"
+199-->[com.google.firebase:firebase-common:20.1.0] C:\Users\vivek\.gradle\caches\transforms-3\b98f12d6cecb3bb326e248ccbd6526eb\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+200            android:exported="false" >
+200-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:66:13-37
+201            <meta-data
+201-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:67:13-69:85
+202                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+202-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:68:17-109
+203                android:value="com.google.firebase.components.ComponentRegistrar" />
+203-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\vivek\.gradle\caches\transforms-3\f070c660adef3925a0f94a2f5863248d\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:69:17-82
+204        </service>
+205
+206        <activity
+206-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vivek\.gradle\caches\transforms-3\9757b0edbc2ff750bd4cb9538ac4df88\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+207            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+207-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vivek\.gradle\caches\transforms-3\9757b0edbc2ff750bd4cb9538ac4df88\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+208            android:exported="false"
+208-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vivek\.gradle\caches\transforms-3\9757b0edbc2ff750bd4cb9538ac4df88\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+209            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+209-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vivek\.gradle\caches\transforms-3\9757b0edbc2ff750bd4cb9538ac4df88\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+210
+211        <provider
+211-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:55:9-59:39
+212            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+212-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:56:13-76
+213            android:authorities="com.app.android.mobileadsinitprovider"
+213-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:57:13-73
+214            android:exported="false"
+214-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:58:13-37
+215            android:initOrder="100" />
+215-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:59:13-36
+216
+217        <service
+217-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:61:9-64:40
+218            android:name="com.google.android.gms.ads.AdService"
+218-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:62:13-64
+219            android:enabled="true"
+219-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:63:13-35
+220            android:exported="false" />
+220-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\vivek\.gradle\caches\transforms-3\64cbaad1938781a7905ecbbb59d202d5\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:64:13-37
+221
+222        <provider
+222-->[com.google.firebase:firebase-common:20.1.0] C:\Users\vivek\.gradle\caches\transforms-3\b98f12d6cecb3bb326e248ccbd6526eb\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+223            android:name="com.google.firebase.provider.FirebaseInitProvider"
+223-->[com.google.firebase:firebase-common:20.1.0] C:\Users\vivek\.gradle\caches\transforms-3\b98f12d6cecb3bb326e248ccbd6526eb\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+224            android:authorities="com.app.android.firebaseinitprovider"
+224-->[com.google.firebase:firebase-common:20.1.0] C:\Users\vivek\.gradle\caches\transforms-3\b98f12d6cecb3bb326e248ccbd6526eb\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+225            android:directBootAware="true"
+225-->[com.google.firebase:firebase-common:20.1.0] C:\Users\vivek\.gradle\caches\transforms-3\b98f12d6cecb3bb326e248ccbd6526eb\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+226            android:exported="false"
+226-->[com.google.firebase:firebase-common:20.1.0] C:\Users\vivek\.gradle\caches\transforms-3\b98f12d6cecb3bb326e248ccbd6526eb\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+227            android:initOrder="100" />
+227-->[com.google.firebase:firebase-common:20.1.0] C:\Users\vivek\.gradle\caches\transforms-3\b98f12d6cecb3bb326e248ccbd6526eb\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+228        <provider
+228-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+229            android:name="androidx.startup.InitializationProvider"
+229-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+230            android:authorities="com.app.android.androidx-startup"
+230-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+231            android:exported="false" >
+231-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+232            <meta-data
+232-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+233                android:name="androidx.work.WorkManagerInitializer"
+233-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+234                android:value="androidx.startup" />
+234-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+235            <meta-data
+235-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vivek\.gradle\caches\transforms-3\cc83e202a0b4864899f4790a2201051d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+236                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+236-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vivek\.gradle\caches\transforms-3\cc83e202a0b4864899f4790a2201051d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+237                android:value="androidx.startup" />
+237-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vivek\.gradle\caches\transforms-3\cc83e202a0b4864899f4790a2201051d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+238            <meta-data
+238-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vivek\.gradle\caches\transforms-3\84fd64f953766a519c615c1ec4ae344c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+239                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+239-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vivek\.gradle\caches\transforms-3\84fd64f953766a519c615c1ec4ae344c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+240                android:value="androidx.startup" />
+240-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vivek\.gradle\caches\transforms-3\84fd64f953766a519c615c1ec4ae344c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+241        </provider>
+242
+243        <service
+243-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+244            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+244-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+245            android:directBootAware="false"
+245-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+246            android:enabled="@bool/enable_system_alarm_service_default"
+246-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+247            android:exported="false" />
+247-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+248        <service
+248-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+249            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+249-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+250            android:directBootAware="false"
+250-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+251            android:enabled="@bool/enable_system_job_service_default"
+251-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+252            android:exported="true"
+252-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+253            android:permission="android.permission.BIND_JOB_SERVICE" />
+253-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+254        <service
+254-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+255            android:name="androidx.work.impl.foreground.SystemForegroundService"
+255-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+256            android:directBootAware="false"
+256-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+257            android:enabled="@bool/enable_system_foreground_service_default"
+257-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+258            android:exported="false" />
+258-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+259
+260        <receiver
+260-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+261            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+261-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+262            android:directBootAware="false"
+262-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+263            android:enabled="true"
+263-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+264            android:exported="false" />
+264-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+265        <receiver
+265-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+266            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+266-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+267            android:directBootAware="false"
+267-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+268            android:enabled="false"
+268-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+269            android:exported="false" >
+269-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+270            <intent-filter>
+270-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+271                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+271-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+271-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+272                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+272-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+272-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+273            </intent-filter>
+274        </receiver>
+275        <receiver
+275-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+276            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+276-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+277            android:directBootAware="false"
+277-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+278            android:enabled="false"
+278-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+279            android:exported="false" >
+279-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+280            <intent-filter>
+280-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+281                <action android:name="android.intent.action.BATTERY_OKAY" />
+281-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+281-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+282                <action android:name="android.intent.action.BATTERY_LOW" />
+282-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+282-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+283            </intent-filter>
+284        </receiver>
+285        <receiver
+285-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+286            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+287            android:directBootAware="false"
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+288            android:enabled="false"
+288-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+289            android:exported="false" >
+289-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+290            <intent-filter>
+290-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+291                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+291-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+291-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+292                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+293            </intent-filter>
+294        </receiver>
+295        <receiver
+295-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+296            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+297            android:directBootAware="false"
+297-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+298            android:enabled="false"
+298-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+299            android:exported="false" >
+299-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+300            <intent-filter>
+300-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+301                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+301-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+301-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+302            </intent-filter>
+303        </receiver>
+304        <receiver
+304-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+305            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+305-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+306            android:directBootAware="false"
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+307            android:enabled="false"
+307-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+308            android:exported="false" >
+308-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+309            <intent-filter>
+309-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+310                <action android:name="android.intent.action.BOOT_COMPLETED" />
+310-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+310-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+311                <action android:name="android.intent.action.TIME_SET" />
+311-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+311-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+312                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+312-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+312-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+313            </intent-filter>
+314        </receiver>
+315        <receiver
+315-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+316            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+316-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+317            android:directBootAware="false"
+317-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+318            android:enabled="@bool/enable_system_alarm_service_default"
+318-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+319            android:exported="false" >
+319-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+320            <intent-filter>
+320-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+321                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+321-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+321-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+322            </intent-filter>
+323        </receiver>
+324        <receiver
+324-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+325            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+325-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+326            android:directBootAware="false"
+326-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+327            android:enabled="true"
+327-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+328            android:exported="true"
+328-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+329            android:permission="android.permission.DUMP" >
+329-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+330            <intent-filter>
+330-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+331                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+331-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+331-->[androidx.work:work-runtime:2.7.1] C:\Users\vivek\.gradle\caches\transforms-3\314733bf7736a0ce2908bc7dc734e1ca\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+332            </intent-filter>
+333        </receiver>
+334
+335        <service
+335-->[androidx.room:room-runtime:2.2.5] C:\Users\vivek\.gradle\caches\transforms-3\a4cbc5047db0d69c50d828c378786d1e\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+336            android:name="androidx.room.MultiInstanceInvalidationService"
+336-->[androidx.room:room-runtime:2.2.5] C:\Users\vivek\.gradle\caches\transforms-3\a4cbc5047db0d69c50d828c378786d1e\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+337            android:directBootAware="true"
+337-->[androidx.room:room-runtime:2.2.5] C:\Users\vivek\.gradle\caches\transforms-3\a4cbc5047db0d69c50d828c378786d1e\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+338            android:exported="false" />
+338-->[androidx.room:room-runtime:2.2.5] C:\Users\vivek\.gradle\caches\transforms-3\a4cbc5047db0d69c50d828c378786d1e\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+339    </application>
+340
+341</manifest>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alzhiemers</string> <!-- App name -->
+
+    <!-- AdMob -->
+    <item name="show_admob" type="bool">false</item> <!-- Show AdMob (true/false) -->
+    <item name="admob_test" type="bool">false</item> <!-- AdMob test mode (true/false) -->
+    <string name="adMob_app_id">ca-app-pub-1310939234790483~8525448014</string> <!-- AdMob App ID -->
+    <string name="adMob_banner">ca-app-pub-1310939034790481/7741070432</string> <!-- AdMob Banner ID -->
+    <string name="adMob_interstitial">ca-app-pub-1310939134790482/1723457053</string> <!-- AdMob Interstitial ID -->
+
+    <!-- Google Play Games -->
+    <item name="connect_games" type="bool">false</item> <!-- Connect to the Google Play Games (true/false) -->
+    <string name="app_id">984791430119</string> <!-- Google Play Games App ID -->
+    <string name="leaderboard">CgkI5-eS0dQcEAIQBw</string> <!-- Google Play Games Leaderboard ID -->
+    <string name="error_sign_in">Failed to sign in, check your network connection</string> <!-- Google Play Games sign in error -->
+    <string name="error_games_exists">Google Play Games is not available</string> <!-- No Google Play Games -->
+
+
+    <string name="btn_leaderboard">LEADERBOARD</string>
+    <string name="btn_start">PLAY</string>
+    <string name="btn_start2">PLAY AGAIN</string>
+    <string name="btn_exit">QUIT</string>
+    <string name="btn_home">HOME</string>
+    <string name="btn_restart">PLAY AGAIN</string>
+    <string name="btn_sound">SOUND</string>
+    <string name="btn_mute">MUTE</string>
+    <string name="btn_sign_in">Sign in</string>
+    <string name="btn_sign_out">Sign out</string>
+    <string name="score">Score:</string>
+    <string name="time">Time</string>
+    <string name="high_score">Your Score:</string>
+    <string name="complete">COMPLETE</string>
+    <string name="ask">Does the current card match the previous card?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+</resources>
